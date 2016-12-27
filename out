@@ -1,0 +1,6 @@
+rt_sigaction(SIGRTMIN, {0x7f712dfbbad0, [], SA_RESTORER|SA_SIGINFO, 0x7f712dfc50a0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f712dfbbb60, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f712dfc50a0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+shmget(0x1103bece, 50, IPC_CREAT|0666)  = 1151959047
+--- SIGSEGV (Segmentation fault) @ 0 (0) ---
++++ killed by SIGSEGV +++

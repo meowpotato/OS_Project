@@ -1,0 +1,6 @@
+from usr1_handler: meow
+from int_handler: got it!
+from int_handler: got it!
+mem from child: 
+
+child exited with code: 1
